@@ -1,0 +1,230 @@
+
+
+
+h1,
+h2,
+h3 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h4,
+h5,
+h6,
+a,
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+
+h1 {
+	font-size: 2.6em;
+    line-height: 0.8em;
+}
+
+h2 {
+	font-size: 2.3em;
+    line-height: 1.0em;
+}
+
+h3 {
+	font-size: 2.0em;
+    line-height: 1.0em;
+}
+
+h4 {
+	font-size: 2.6em;
+	line-height: 1.0em;
+}
+
+h5 {
+	font-size: 2.1em;
+	line-height: 1.0em;
+}
+
+h6 {
+	font-size: 1.6em;
+    line-height: 1.0em;
+}
+
+a {
+	font-size: 1.1em;
+    line-height: 1.0em;
+    color: #2d3c49;
+}
+
+p {
+	font-size: 1.1em;
+    line-height: 0.8em;
+}
+
+/*classes for different font-weights*/
+.thin {
+	font-weight: 100;
+}
+
+.light {
+	font-weight: 200;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.black {
+	font-weight: 900;
+}
+/*font-weights - END*/
+
+/*Random background colors for layout testing*/
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.gray {
+	background-color: gray;
+}
+/*Background color testing - END*/
+
+/*font-colors*/
+.bright-blue-text {
+	color: #02b3e4;
+}
+
+.light-blue-text {
+	color: #7d97ad;
+}
+
+.dark-blue-text {
+	color: #2d3c49;
+}
+
+.white-text {
+	color: #ffffff;
+}
+
+.orange-text {
+	color: #ff6600;
+}
+/*font-colors - END*/
+
+#vitalogyLogo {
+	height: 110px;
+	width: auto;
+	margin-left: -15px;
+}
+
+/*text magnification*/
+.jumbo-text {
+	font-size: 1.5em;
+}
+
+.large-text {
+	font-size: 1.2em;
+}
+/*text magnification - END*/
+
+.hero-image, .article-image {
+	width: 100%;
+	height: auto;
+}
+
+header.top-header {
+	margin: 15px;
+	padding: 25px 0;
+	border-bottom: 5px solid #7d97ad;
+}
+
+figure, main {
+	margin: 15px;
+}
+
+footer {
+	margin-top: 15px;
+	min-height: 50px;
+}
+
+footer>.row {
+	margin: 0;
+}
+
+header.featured-work {
+	margin-top: 30px;
+}
+
+.articles {
+	margin: 10px -15px;
+}
+
+.article-box {
+	margin-bottom: 15px;
+}
+
+.article-entry {
+	margin: 0px 15px;
+}
+
+.no-decoration {
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 20px;
+	height: 60px;
+	background-color: #2d3c49;
+	border-top: 5px solid #7d97ad;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.footer-text {
+	padding-top: 23px;
+}
+
+.navbar {
+	margin-bottom: 0;
+    border: none;
+}
+
+.navbar-right>ul {
+    white-space: nowrap;
+}
+
+.navbar-right>li {
+	display:inline-block;
+}
+
+.navbar-right>li>a {
+    background-color: transparent;
+    color: #02b3e4;
+}
+
+.navbar-right>li>a:focus,
+.navbar-right>li>a:active,
+.navbar-right>li>a:hover {
+    background-color: transparent;
+    color: #7d97ad;
+}
+
+
