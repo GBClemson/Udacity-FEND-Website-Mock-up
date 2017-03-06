@@ -4,7 +4,7 @@
 h1,
 h2,
 h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 h4,
@@ -12,7 +12,7 @@ h5,
 h6,
 a,
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 
@@ -127,7 +127,7 @@ p {
 }
 /*font-colors - END*/
 
-#vitalogyLogo {
+.header-logo {
 	height: 110px;
 	width: auto;
 	margin-left: -15px;
@@ -143,23 +143,24 @@ p {
 }
 /*text magnification - END*/
 
-.hero-image, .article-image {
-	width: 100%;
-	height: auto;
-}
 
-header.top-header {
-	margin: 15px;
+.header-margin {
+	margin: 15px 0;
 	padding: 25px 0;
 	border-bottom: 5px solid #7d97ad;
 }
 
-figure, main {
+.img-responsive {
+	width: 100%;
+}
+
+figure,
+main {
 	margin: 15px;
 }
 
 footer {
-	margin-top: 15px;
+	margin: 15px -15px 0 -15px;
 	min-height: 50px;
 }
 
@@ -167,8 +168,8 @@ footer>.row {
 	margin: 0;
 }
 
-header.featured-work {
-	margin-top: 30px;
+.featured-work {
+	margin: 30px 0 0 0;
 }
 
 .articles {
